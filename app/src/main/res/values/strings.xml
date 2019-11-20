@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">\n MyFirstApplication \n</string>
+    <string name="text_message">Utilities</string>
+    <string name="button_converter">Temperature converter </string>
+    <string name="button_utils">Office utilities</string>
+    <string name="edit_celsius">Enter temperature Celsius</string>
+    <string name="button_celsius">Convert</string>
+    <string name="edit_far">Enter temperature Fahrenheit</string>
+    <string name="button_far">Convert</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OfficeUtils"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserisci url"
+        android:hint=""/>
+
+    <Button
+        android:id="@+id/button_browse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse"
+        android:onClick = "browse"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fai una chiamata"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiama!"
+        android:onClick = "call"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manda una E-mail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:onClick = "email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apri la lista dei contatti"/>
+    <Button
+        android:id="@+id/button_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contatti"
+        android:onClick = "openList"/>
+</LinearLayout>
